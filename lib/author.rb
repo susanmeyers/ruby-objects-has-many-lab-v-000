@@ -24,7 +24,7 @@ class Author
   def self.post_count
     counter = 0
     self.each do |a|
-    counter += a.posts.size
+    counter += self.posts.size
     end
     counter
   end
