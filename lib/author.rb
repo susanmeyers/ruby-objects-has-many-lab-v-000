@@ -23,7 +23,7 @@ class Author
 
   def self.post_count
     total = 0
-    total = self.post.size
+    total = self.posts.size
     total
 
   end
