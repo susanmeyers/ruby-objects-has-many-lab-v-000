@@ -32,16 +32,8 @@ end
 
 
 
-     def self.song_count
-       counter = 0
-       self.all.each do |a|
-       counter += a.songs.size
-     end
-       counter
-     end
+    
 
 
 
 
-  end
-end
