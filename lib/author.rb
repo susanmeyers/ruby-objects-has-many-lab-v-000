@@ -22,6 +22,6 @@ class Author
   end
 
   def self.post_count
-    Author = post.size
+    
   end
 end
