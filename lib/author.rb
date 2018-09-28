@@ -1,7 +1,6 @@
 require 'pry'
 class Author
 
-
   attr_accessor :name, :posts
 
   def initialize(name)
@@ -26,6 +25,7 @@ class Author
     counter = 0
     self.all.each do |post|
     counter += a.posts.size
-  end
+    end
     counter
+  end
 end
